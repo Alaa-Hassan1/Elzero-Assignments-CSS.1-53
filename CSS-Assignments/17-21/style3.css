@@ -1,0 +1,18 @@
+.one{
+    background-color: #eee;
+    width: 400px;
+    padding: 10px;
+}
+.two{
+    background-color: #eee;
+    width: 400px;
+    padding: 10px;
+}
+.three{
+    background-color: #eee;
+    width: 400px;
+    padding: 10px;
+    white-space: nowrap; /* مينزلش سطر جديد */
+    overflow: hidden;  /* يخفي الكلام الزياده */
+    text-overflow: ellipsis; /* يعمل نقط بدل الكلام المخفي */
+}

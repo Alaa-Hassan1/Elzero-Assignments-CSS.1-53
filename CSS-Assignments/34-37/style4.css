@@ -1,0 +1,35 @@
+body {
+    counter-reset: members-counter;
+    font-family: sans-serif;
+}
+
+p {
+    background-color: #eeeeee; 
+    padding: 20px 20px 20px 65px; 
+    position: relative;
+    margin: 20px;
+    counter-increment: members-counter;
+}
+
+p::after {
+    content: '';
+    background-color: #f44336; 
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+p::before {
+    content: counter(members-counter);
+    position: absolute;
+    background-color: #f44336;
+    color: white;
+    width: 50px;
+    height: 100%;
+    top: 0;
+    left: 0; 
+    text-align: center;  
+    line-height: 60px; 
+}

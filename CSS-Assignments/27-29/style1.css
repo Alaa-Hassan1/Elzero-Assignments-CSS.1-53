@@ -1,0 +1,30 @@
+.parent{
+    width: 800px;
+    background-color: rgb(232, 232, 232);
+    overflow: hidden;
+}
+.float{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.one, .half, .third, .fourth{
+    text-align: center;
+    background-color: rgb(186, 186, 186);
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.one{
+    width: calc((100% - 30px)/1); 
+}
+.third{
+    width: calc((100% - 60px)/3);
+}
+.half{
+    width: calc((100% - 45px)/2);
+}
+.fourth{
+    width: calc((100% - 75px)/4);
+    margin-bottom: 15px;
+}

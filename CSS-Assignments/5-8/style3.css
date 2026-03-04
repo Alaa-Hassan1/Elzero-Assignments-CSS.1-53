@@ -1,0 +1,21 @@
+div{
+    width: 400px;
+    height: 400px;
+    background-image: url(photo_2026-02-17_15-18-21.jpg);   
+    background-color: rgb(128, 195, 255);
+    color: white;
+}
+.assign-2-shape-1{
+    background-repeat: no-repeat;
+}
+.assign-2-shape-2{
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-2-shape-3{
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.assign-2-shape-4{
+    background-repeat: repeat;
+}

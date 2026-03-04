@@ -1,0 +1,15 @@
+body {
+    margin: 300px; /* المسافة من فوق وتحت بشكل تقريبي */
+    text-align: center; /* تمركز الرابط أفقيًا */
+}
+
+a{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgb(25, 151, 139);
+    color: white;
+    border-bottom: 10px solid rgb(0, 94, 77);
+    padding: 20px;
+}

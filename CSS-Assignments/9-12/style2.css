@@ -1,0 +1,19 @@
+.element {
+    width: 400px;
+    background-color: #eee;
+    margin: 20px;
+    padding: 15px; 
+}
+
+.element-1 {
+    border-left: 10px solid #e91e63;
+}
+
+
+.element-2 {
+    visibility: hidden;
+}
+
+.element-3 {
+    border-left: 10px solid #009688;
+}

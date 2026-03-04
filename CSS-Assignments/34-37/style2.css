@@ -1,0 +1,13 @@
+div{
+    background-color:rgb(220, 220, 220);
+    width: 300px;
+    padding: 15px;
+    margin: auto;
+}
+div::first-letter{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    margin: -30px;
+    margin-right: 15px;
+}

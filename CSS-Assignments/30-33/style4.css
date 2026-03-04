@@ -1,0 +1,28 @@
+table{
+    border-bottom: 2px solid green;
+    width: 700px;
+    padding-top: 8px; 
+    margin: 0 auto;
+}
+th{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+td{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+.view{
+    background-color: #03a9ff;
+}
+.delete{
+    background-color: #f12652;   
+}
+.view, .delete{
+    color: white;
+    margin: 3px;
+    padding: 4px;
+}
