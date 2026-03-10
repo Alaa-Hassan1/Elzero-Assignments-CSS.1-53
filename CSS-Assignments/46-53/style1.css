@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    background-color: #eeee;
+    color: rgb(255, 81, 0);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-left: 5px solid rgb(0, 145, 255);
+    border-right: 5px solid rgb(255, 81, 0);
+}

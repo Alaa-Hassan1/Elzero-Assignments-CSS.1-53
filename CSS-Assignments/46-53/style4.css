@@ -1,0 +1,27 @@
+.parent{
+    background-color: #eeee;
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    color: white;
+    padding: 10px;
+    flex-flow: column;
+}
+.one, .two, .three{
+    background-color: rgb(41, 150, 117);
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one, .three{ 
+    width: 20px;
+    align-self: self-end;
+}
+.two{
+    background-color: rgb(35, 147, 113);
+    width: 50%;
+}
