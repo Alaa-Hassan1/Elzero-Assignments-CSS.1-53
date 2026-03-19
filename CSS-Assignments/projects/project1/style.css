@@ -1,0 +1,33 @@
+.trait{
+    font-weight: bold;
+}
+.note{
+    font-style: italic;
+}
+.mood, .mood-item{
+    display: flex;
+}
+.mood{
+    gap: 10px;
+}
+.mood p{
+    margin: 0;
+    align-self: flex-end;
+}
+.happy, .sad{
+    transition: transform 0.3s ease;
+}
+.happy:hover, .sad:hover{
+    transform: scale(1.05);
+}
+
+.logo{
+    display: flex;
+    gap: 7px;
+}
+.logo-xhtml, .logo-css{
+    width: 100px;
+}
+.logo-xhtml:hover, .logo-css:hover{
+    transform: scale(1.1);
+}

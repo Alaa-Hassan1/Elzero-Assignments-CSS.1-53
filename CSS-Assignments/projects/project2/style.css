@@ -1,0 +1,54 @@
+body {
+    background-color: #eee;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    background-color: rgb(247, 247, 247);
+    max-width: 650px;
+    box-shadow: 5px 3px rgb(219, 219, 219);
+    border: 1px rgb(189, 189, 189) solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 0 15px 15px 15px;
+
+}
+section{
+    margin-bottom: 30px;
+}
+span{
+    font-weight: bold;
+}
+.happy, .sad{
+    width: 100px;
+}
+.mood{
+    display: flex;
+    gap: 15px;
+}
+.Happy-Mood, .Sad-Mood{
+    display: flex;
+}
+.Happy-Mood p, .Sad-Mood p{
+    margin: 0;
+    align-self: flex-end;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+h1{
+    text-shadow: 2px 2px 2px #989898;
+    text-align: center;
+}
+.welcome{
+    font-style: italic;
+}
+.Happy-Mood img, .Sad-Mood img, .logo {
+    transition: transform 0.3s ease;
+}
+.Happy-Mood img:hover, .Sad-Mood img:hover, .logo:hover {
+    transform: scale(1.1);
+}
